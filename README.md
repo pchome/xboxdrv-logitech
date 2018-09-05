@@ -9,7 +9,7 @@ SUBSYSTEMS=="input", ATTRS{name}=="Logitech Logitech Dual Action", MODE="0666"
 SUBSYSTEMS=="input", ATTRS{name}=="Xbox Gamepad (userspace driver)", MODE="0666"
 SUBSYSTEMS=="input", ATTRS{name}=="Microsoft X-Box 360 pad", MODE="0666"
 
-SUBSYSTEM=="misc", KERNEL=="uinput", PROGRAM="/usr/bin/xboxdrv", MODE="0666"
+SUBSYSTEM=="misc", KERNEL=="uinput", MODE="0666"
 ```
 
 
